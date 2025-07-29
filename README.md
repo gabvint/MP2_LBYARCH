@@ -17,14 +17,16 @@ The x86-64 assembly version of the kernel has a faster average time than the C v
 
 ---
 
-## 2. Screenshot: C Program Output
+## 2-3. Screenshot: C Program & x86-64 Assembly Output
 
+### Screenshot: Output for vector size 2^20
+![Output1](./Output1.png)
 
+### Screenshot: Output for vector size 2^24
+![Output2](./Output2.png)
 
----
-
-## 3. Screenshot: x86-64 Assembly Program Output
-
+### Screenshot: Output for vector size 2^28
+![Output3](./Output3.png)
 
 ---
 
