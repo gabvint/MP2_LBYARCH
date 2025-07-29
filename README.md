@@ -8,9 +8,9 @@ This section presents the **average execution time (in seconds)** for both the *
 
 | Vector Size (Elements)   | C Average Time (sec) | x86-64 ASM Average Time (sec)  |
 |--------------------------|----------------------|--------------------------------|
-| 2^20 (1,048,576)         | *0.003650*           | *0.001150*                     |
-| 2^24 (16,777,216)        | *0.069550*           | *0.020750*                     |
-| 2^28 (268,435,456)       | *1.006000*           | *0.292550*                     |
+| 2^20 (1,048,576)         | *0.004450*           | *0.001200*                     |
+| 2^24 (16,777,216)        | *0.072050*           | *0.022350*                     |
+| 2^28 (268,435,456)       | *0.977800*           | *0.279800*                     |
 
 **Analysis:**  
 The x86-64 assembly version of the kernel has a faster average time than the C version for all test cases.
@@ -18,6 +18,7 @@ The x86-64 assembly version of the kernel has a faster average time than the C v
 ---
 
 ## 2. Screenshot: C Program Output
+
 
 
 ---
